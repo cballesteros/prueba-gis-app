@@ -1,0 +1,7 @@
+{
+  "name": "prueba-gis-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
