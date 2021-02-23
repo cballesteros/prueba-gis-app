@@ -1,0 +1,17 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>
+      GIS
+    </ion-title>
+    <ion-buttons slot="secondary">
+      <ion-button (click)=refresh()>
+        <ion-icon slot="icon-only" name="refresh-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="mapId" style="width: 100%; height: 100%">
+  </div>
+</ion-content>

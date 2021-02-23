@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { VehiclesMapComponent } from './vehicles-map/vehicles-map.component';
 
 const routes: Routes = [
   {
@@ -8,9 +9,13 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'map',
     pathMatch: 'full'
   },
+  {
+    path: 'map',
+    component: VehiclesMapComponent
+  }
 ];
 
 @NgModule({
